@@ -1,0 +1,16 @@
+/usr/bin/ld: Resultados/MatheusZortea/paciente/gerenciador.o: in function `getPacientePeloSUSBancoGerenciador':
+gerenciador.c:(.text+0x120): undefined reference to `getCartaoSusPaciente'
+/usr/bin/ld: Resultados/MatheusZortea/paciente/gerenciador.o: in function `preencheBancoPacientesGerenciador':
+gerenciador.c:(.text+0x1af): undefined reference to `lePaciente'
+/usr/bin/ld: gerenciador.c:(.text+0x227): undefined reference to `adicionaLesaoPaciente'
+/usr/bin/ld: Resultados/MatheusZortea/paciente/gerenciador.o: in function `liberaGerenciador':
+gerenciador.c:(.text+0x297): undefined reference to `liberaPaciente'
+/usr/bin/ld: Resultados/MatheusZortea/paciente/gerenciador.o: in function `calculaMediaIdadePacientesBancoGerenciador':
+gerenciador.c:(.text+0x323): undefined reference to `calculaIdadePaciente'
+/usr/bin/ld: Resultados/MatheusZortea/paciente/gerenciador.o: in function `imprimePacientesBancoGerenciador':
+gerenciador.c:(.text+0x3a7): undefined reference to `imprimeIdLesoesPaciente'
+/usr/bin/ld: Resultados/MatheusZortea/paciente/gerenciador.o: in function `calculaQtdLesoesPacientesBancoGerenciador':
+gerenciador.c:(.text+0x3fa): undefined reference to `getQtdLesoesPaciente'
+/usr/bin/ld: Resultados/MatheusZortea/paciente/gerenciador.o: in function `calculaQtdCirurgiaPacientesBancoGerenciador':
+gerenciador.c:(.text+0x451): undefined reference to `getQtdCirurgiasPaciente'
+collect2: error: ld returned 1 exit status

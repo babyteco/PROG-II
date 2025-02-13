@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/MatheusZortea/gerenciador/main.o: in function `main':
+main.c:(.text+0x12): undefined reference to `criaGerenciador'
+/usr/bin/ld: main.c:(.text+0x22): undefined reference to `preencheBancoPacientesGerenciador'
+/usr/bin/ld: main.c:(.text+0x2e): undefined reference to `imprimeRelatorioGerenciador'
+/usr/bin/ld: main.c:(.text+0x3a): undefined reference to `liberaGerenciador'
+collect2: error: ld returned 1 exit status
