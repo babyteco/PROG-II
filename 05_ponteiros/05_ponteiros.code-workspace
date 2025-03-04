@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../06_alocacao_dinamica"
+		},
+		{
+			"path": "../07_TAD_opaco"
+		},
+		{
+			"path": "../08_TAD_generico"
+		},
+		{
+			"path": "../09_arquivo_binario"
+		}
+	]
+}

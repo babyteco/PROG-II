@@ -5,7 +5,7 @@
 
 
 char *CriaVetorTamPadrao(){
-    char *vetor = (char*) malloc(TAM_PADRAO * sizeof(char));
+    char *vetor = (char*) malloc((TAM_PADRAO + 1) * sizeof(char));
     
     if (vetor == NULL){
         printf("Erro na alocação de memoria do vetor\n");
@@ -22,16 +22,18 @@ char *CriaVetorTamPadrao(){
 }
 
 char *AumentaTamanhoVetor(char* vetor, int tamanhoantigo){
-
     int novoTamanho = (tamanhoantigo * sizeof(char)) + (TAM_PADRAO * sizeof(char));
-    vetor = (char*) realloc(vetor, novoTamanho);
+    
+    vetor = (char*) realloc(vetor, novoTamanho * sizeof(char));
 
     if (vetor == NULL){
         printf("Erro na realocação de memoria do vetor\n");
         exit(1);
     }
 
-    for (int i = tamanhoantigo; i < novoTamanho/sizeof(char); i++){
+    novoTamanho = novoTamanho / sizeof(char);
+
+    for (int i = tamanhoantigo; i < novoTamanho; i++){
         vetor[i] = '_';
     }
 
@@ -44,7 +46,7 @@ char* LeVetor(char *vetor, int *tamanho){
     int i = 0;
     while (scanf("%c",&vetor[i]) && vetor[i] != '\n'){
         i++;
-        if (i > *tamanho){
+        if (i >= *tamanho){
             vetor = AumentaTamanhoVetor(vetor, *tamanho);
             *tamanho = *tamanho + TAM_PADRAO;
         }   

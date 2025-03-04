@@ -5,9 +5,8 @@
 int main(){
     char* vetor;
     vetor = CriaVetorTamPadrao();
-    int* tam;
-    *tam = TAM_PADRAO;
-    vetor = LeVetor(vetor, tam);
+    int tam = TAM_PADRAO + 1;
+    vetor = LeVetor(vetor, &tam);
     ImprimeString(vetor);
     LiberaVetor(vetor);
     return 0;
