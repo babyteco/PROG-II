@@ -1,0 +1,143 @@
+==72474== Memcheck, a memory error detector
+==72474== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==72474== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==72474== Command: Resultados/MatheusZortea/jogador/prog Resultados/MatheusZortea/jogador/Casos/2
+==72474== Parent PID: 72473
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D6CB8: __printf_fp_l (printf_fp.c:396)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D6CD2: __printf_fp_l (printf_fp.c:396)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D250A: __mpn_extract_double (dbl2mpn.c:56)
+==72474==    by 0x48D6FCE: __printf_fp_l (printf_fp.c:396)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D250F: __mpn_extract_double (dbl2mpn.c:60)
+==72474==    by 0x48D6FCE: __printf_fp_l (printf_fp.c:396)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D79B0: __printf_fp_l (printf_fp.c:978)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D79EA: __printf_fp_l (printf_fp.c:981)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D7A24: __printf_fp_l (printf_fp.c:991)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D7A58: round_away (rounding-mode.h:52)
+==72474==    by 0x48D7A58: __printf_fp_l (printf_fp.c:998)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D7CD5: __printf_fp_l (printf_fp.c:1166)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D7F15: __printf_fp_l (printf_fp.c:1228)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Conditional jump or move depends on uninitialised value(s)
+==72474==    at 0x48D7EFB: __printf_fp_l (printf_fp.c:1230)
+==72474==    by 0x48F292C: __printf_fp_spec (vfprintf-internal.c:354)
+==72474==    by 0x48F292C: __vfprintf_internal (vfprintf-internal.c:1558)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== Syscall param write(buf) points to uninitialised byte(s)
+==72474==    at 0x4990887: write (write.c:26)
+==72474==    by 0x4906EEC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1180)
+==72474==    by 0x49089E0: new_do_write (fileops.c:448)
+==72474==    by 0x49089E0: _IO_new_do_write (fileops.c:425)
+==72474==    by 0x49089E0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==72474==    by 0x490A9C1: _IO_flush_all_lockp (genops.c:706)
+==72474==    by 0x490AB7D: _IO_cleanup (genops.c:866)
+==72474==    by 0x48C1541: __run_exit_handlers (exit.c:134)
+==72474==    by 0x48C160F: exit (exit.c:143)
+==72474==    by 0x48A5D96: (below main) (libc_start_call_main.h:74)
+==72474==  Address 0x4ac0016 is 22 bytes inside a block of size 4,096 alloc'd
+==72474==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==72474==    by 0x48FABA3: _IO_file_doallocate (filedoalloc.c:101)
+==72474==    by 0x4909CDF: _IO_doallocbuf (genops.c:347)
+==72474==    by 0x4908F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==72474==    by 0x49076D4: _IO_new_file_xsputn (fileops.c:1243)
+==72474==    by 0x49076D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==72474==    by 0x48F114C: outstring_func (vfprintf-internal.c:239)
+==72474==    by 0x48F114C: __vfprintf_internal (vfprintf-internal.c:1263)
+==72474==    by 0x48DC79E: printf (printf.c:33)
+==72474==    by 0x1094BF: printaJogador (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x109CE2: criaRelatorioServidor (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474==    by 0x10953A: main (in /home/mgzortea/Documents/EA4-script-publico/Resultados/MatheusZortea/jogador/prog)
+==72474== 
+==72474== 
+==72474== HEAP SUMMARY:
+==72474==     in use at exit: 0 bytes in 0 blocks
+==72474==   total heap usage: 42 allocs, 42 frees, 99,552 bytes allocated
+==72474== 
+==72474== All heap blocks were freed -- no leaks are possible
+==72474== 
+==72474== Use --track-origins=yes to see where uninitialised values come from
+==72474== For lists of detected and suppressed errors, rerun with: -s
+==72474== ERROR SUMMARY: 29 errors from 12 contexts (suppressed: 0 from 0)

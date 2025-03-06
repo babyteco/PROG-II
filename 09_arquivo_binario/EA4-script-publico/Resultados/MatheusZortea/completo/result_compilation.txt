@@ -1,0 +1,16 @@
+jogador.c: In function ‘printaJogador’:
+jogador.c:126:38: warning: format ‘%f’ expects a matching ‘double’ argument [-Wformat=]
+  126 |     printf("Jogador %d: %d/%d/%d (%.2f)\n", j.id, j.kills, j.deaths, j.assists);
+      |                                   ~~~^
+      |                                      |
+      |                                      double
+main.c:3:9: error: #include expects "FILENAME" or <FILENAME>
+    3 | #include
+      |         ^
+registro.c: In function ‘buscaJogadorRegistro’:
+registro.c:45:13: warning: unused variable ‘j’ [-Wunused-variable]
+   45 |     Jogador j = inicializaJogador(-1);
+      |             ^
+registro.c:52:1: warning: control reaches end of non-void function [-Wreturn-type]
+   52 | }
+      | ^

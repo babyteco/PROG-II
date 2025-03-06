@@ -1,0 +1,30 @@
+==15705== Memcheck, a memory error detector
+==15705== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==15705== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==15705== Command: Resultados/MatheusZortea/main/prog Resultados/MatheusZortea/main/Casos/3
+==15705== Parent PID: 15704
+==15705== 
+==15705== 
+==15705== HEAP SUMMARY:
+==15705==     in use at exit: 2,880 bytes in 52 blocks
+==15705==   total heap usage: 58 allocs, 6 frees, 20,208 bytes allocated
+==15705== 
+==15705== 1,440 (40 direct, 1,400 indirect) bytes in 1 blocks are definitely lost in loss record 11 of 12
+==15705==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15705==    by 0x1092FF: CriaVetorAlunos (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/main/prog)
+==15705==    by 0x109E09: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/main/prog)
+==15705== 
+==15705== 1,440 (40 direct, 1,400 indirect) bytes in 1 blocks are definitely lost in loss record 12 of 12
+==15705==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==15705==    by 0x1092FF: CriaVetorAlunos (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/main/prog)
+==15705==    by 0x109E49: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/main/prog)
+==15705== 
+==15705== LEAK SUMMARY:
+==15705==    definitely lost: 80 bytes in 2 blocks
+==15705==    indirectly lost: 2,800 bytes in 50 blocks
+==15705==      possibly lost: 0 bytes in 0 blocks
+==15705==    still reachable: 0 bytes in 0 blocks
+==15705==         suppressed: 0 bytes in 0 blocks
+==15705== 
+==15705== For lists of detected and suppressed errors, rerun with: -s
+==15705== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
