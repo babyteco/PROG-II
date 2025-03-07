@@ -1,11 +1,8 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include "jogador.h"
-#include"registro.h"
-#include<string.h>
 
-#define MAX_JOGADOR_PARTIDA 5
 
+
+#include <stdio.h>
+#include "registro.h"
 
 
 /*
@@ -15,24 +12,20 @@ lido do arquivo binário correspondente ao log.
 @param logNum: Número do log
 @param pastaLogs: Caminho da pasta de logs (já com a barra no final)
 */
-Registro leRegistro(int logNum, char *pastaLogs){
-        
+Registro leRegistro(int logNum, char *pastaLogs) {
+
     char path[100];
     sprintf(path, "%slog_%d.bin", pastaLogs, logNum);
+    FILE *arqLog = fopen(path, "rb");
 
-
-    FILE *arq = fopen(path, "rb");
-
-
-    Registro r;
-
-    fread(&r.idPartida, sizeof(int), 1, arq);
-
-    for (int i = 0; i < MAX_JOGADOR_PARTIDA; i++){
-        r.jogadores[i] = leJogador(arq);
+    Registro reg;
+    fread(&reg.idPartida, sizeof(int), 1, arqLog);
+    for(int i = 0; i < MAX_JOGADOR_PARTIDA; i++) {
+        reg.jogadores[i] = leJogador(arqLog);
     }
-    fclose(arq);
-    return r; 
+
+    fclose(arqLog);
+    return reg;
 }
 
 /*
@@ -42,17 +35,12 @@ Se o jogador for encontrado, ele é retornado. Caso contrário, um jogador é cr
 @param r: Registro de uma partida
 @param idJog: ID do jogador a ser buscado
 */
-Jogador buscaJogadorRegistro(Registro r, int idJog){
-    
-    Jogador j = inicializaJogador(-1);
-
-    for (int i = 0; i < MAX_JOGADOR_PARTIDA; i++){
-        if (getIdJogador(r.jogadores[i]) == idJog){
-            return r.jogadores[i];
-        }   
-    }
+Jogador buscaJogadorRegistro(Registro r, int idJog) {
 
     Jogador jog = inicializaJogador(-1);
+    for(int i = 0; i < MAX_JOGADOR_PARTIDA; i++) {
+        if (getIdJogador(r.jogadores[i]) == idJog)
+            return r.jogadores[i];
+    }
     return jog;
 }
-

@@ -1,15 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include "jogador.h"
+#include"registro.h"
 #include<string.h>
 
 #define MAX_JOGADOR_PARTIDA 5
 
-typedef struct
-{
-    int idPartida;
-    Jogador jogadores[MAX_JOGADOR_PARTIDA];
-} Registro;
+
 
 /*
 Função que recebe o número de um log e o caminho da pasta de logs e retorna um Registro de partida
@@ -19,18 +16,23 @@ lido do arquivo binário correspondente ao log.
 @param pastaLogs: Caminho da pasta de logs (já com a barra no final)
 */
 Registro leRegistro(int logNum, char *pastaLogs){
+        
     char path[100];
     sprintf(path, "%slog_%d.bin", pastaLogs, logNum);
-    
-    
-    FILE *arqLog = fopen(path, "rb");
+
+
+    FILE *arq = fopen(path, "rb");
+
+
     Registro r;
-    fread( &r.idPartida, sizeof(int), 1, arqLog);
+
+    fread(&r.idPartida, sizeof(int), 1, arq);
+
     for (int i = 0; i < MAX_JOGADOR_PARTIDA; i++){
-        r.jogadores[i] = leJogador(arqLog);
+        r.jogadores[i] = leJogador(arq);
     }
-    fclose(arqLog);
-    return r;
+    fclose(arq);
+    return r; 
 }
 
 /*
@@ -49,5 +51,8 @@ Jogador buscaJogadorRegistro(Registro r, int idJog){
             return r.jogadores[i];
         }   
     }
+
+    Jogador jog = inicializaJogador(-1);
+    return jog;
 }
 

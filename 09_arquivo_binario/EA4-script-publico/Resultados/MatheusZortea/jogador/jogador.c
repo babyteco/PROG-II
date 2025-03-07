@@ -15,7 +15,7 @@ Jogador inicializaJogador(int id){
     j.assists = 0;
     j.deaths = 0;
     j.kills = 0;
-    j.valorKDA = 0;
+    j.valorKDA = -1;
     j.id = id;
     return j;
 }
@@ -51,7 +51,7 @@ float calculaKDA(Jogador j){
         kda = j.kills + j.assists;
         return kda;
     }
-    kda = (j.kills + j.assists) / (float)j.deaths;
+    kda = (j.kills + j.assists) / ((float) j.deaths);
     return kda;
 }
 
@@ -69,9 +69,10 @@ pelos valores passados por parâmetro. O valor do KDA é recalculado e armazenad
 */
 Jogador atualizaJogador(Jogador j, int id, int k, int d, int a){
     j.id = id;
-    j.assists = a;
-    j.kills = k;
-    j.deaths = d;
+    j.assists += a;
+    j.kills += k;
+    j.deaths += d;
+    j.valorKDA = 0;
     j.valorKDA = calculaKDA(j);
     return j;
 
@@ -123,5 +124,5 @@ Funçao que recebe um jogador e imprime suas informações conforme o formato es
 @param j: Jogador
 */
 void printaJogador(Jogador j){
-    printf("Jogador %d: %d/%d/%d (%.2f)\n", j.id, j.kills, j.deaths, j.assists);
+    printf("Jogador %d: %d/%d/%d (%.2f)\n", j.id, j.kills, j.deaths, j.assists, j.valorKDA);
 }

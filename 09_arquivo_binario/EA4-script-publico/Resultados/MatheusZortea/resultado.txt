@@ -10,16 +10,16 @@ Teste completo
   - Valgrinds corretos: 0 de 5
 Nota de MatheusZortea para o teste completo: 0
 Teste registro
-  - Resultados corretos: 0 de 5
-  - Valgrinds corretos: 0 de 5
-Nota de MatheusZortea para o teste registro: 0
+  - Resultados corretos: 5 de 5
+  - Valgrinds corretos: 5 de 5
+Nota de MatheusZortea para o teste registro: 2.50
 Teste jogador
-  - Resultados corretos: 0 de 5
-  - Valgrinds corretos: 0 de 5
-Nota de MatheusZortea para o teste jogador: 0
+  - Resultados corretos: 5 de 5
+  - Valgrinds corretos: 5 de 5
+Nota de MatheusZortea para o teste jogador: 2.50
 Teste servidor
   - Resultados corretos: 0 de 5
   - Valgrinds corretos: 0 de 5
 Nota de MatheusZortea para o teste servidor: 0
-Nota de MatheusZortea: 0+(0)+(0)+(0)+(0)+(0)
-Nota de MatheusZortea: 0
+Nota de MatheusZortea: 0+(2.50)+(2.50)+(0)+(0)+(0)
+Nota de MatheusZortea: 5.00

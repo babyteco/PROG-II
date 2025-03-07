@@ -1,6 +1,0 @@
-jogador.c: In function ‘printaJogador’:
-jogador.c:126:38: warning: format ‘%f’ expects a matching ‘double’ argument [-Wformat=]
-  126 |     printf("Jogador %d: %d/%d/%d (%.2f)\n", j.id, j.kills, j.deaths, j.assists);
-      |                                   ~~~^
-      |                                      |
-      |                                      double

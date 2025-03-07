@@ -1,6 +1,8 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+
+
+#ifndef _SERVIDOR_H_
+#define _SERVIDOR_H_
+
 #include "registro.h"
 
 #define MAX_PARTIDAS 1000
@@ -18,13 +20,7 @@ com todos os registros de partidas lidos. Conforme a especificação da atividad
 
 @return Servidor: Servidor com todos os registros de partidas lidos
 */
-Servidor leRegistrosServidor(){
-    Servidor s;
-    for (int i = 0; i < count; i++){
-        
-    }
-    
-}
+Servidor leRegistrosServidor();
 
 /*
 Função que recebe um servidor já preenchido com os dados de todas as partidas e um ID de jogador.
@@ -43,3 +39,5 @@ Função que recebe um servidor já criado e preenchido e imprime um relatório 
 solicitados a partir da entrada padrão. O relatório é impresso conforme o formato especificado na descrição da atividade.
 */
 void criaRelatorioServidor(Servidor s);
+
+#endif
