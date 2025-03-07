@@ -14,10 +14,10 @@ int main(){
 
     char *nomeArq = "alunos.bin";
     SalvaAlunosBinario(alunos, nomeArq, numAlunos);
-
-    Aluno **a;
-    a = CriaVetorAlunos(numAlunos);
-    CarregaAlunosBinario(a, "alunos.bin");
-    ImprimeAlunos(a, numAlunos);
+    LiberaAlunos(alunos, numAlunos);
+    alunos = CriaVetorAlunos(numAlunos);
+    CarregaAlunosBinario(alunos, "alunos.bin");
+    ImprimeAlunos(alunos, numAlunos);
+    LiberaAlunos(alunos, numAlunos);
     return 0;
 }

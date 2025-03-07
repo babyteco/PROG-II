@@ -3,8 +3,8 @@ Pastas Compiladas Corretamente: 3 de 3
 Pastas Linkadas Corretamente: 3 de 3
 Teste main
   - Resultados corretos: 3 de 3
-  - Valgrinds corretos: 0 de 3
-Nota de MatheusZortea para o teste main: 1.66
+  - Valgrinds corretos: 3 de 3
+Nota de MatheusZortea para o teste main: 3.33
 Teste completo
   - Resultados corretos: 0 de 3
   - Valgrinds corretos: 0 de 3
@@ -13,5 +13,5 @@ Teste aluno
   - Resultados corretos: 0 de 3
   - Valgrinds corretos: 0 de 3
 Nota de MatheusZortea para o teste aluno: 0
-Nota de MatheusZortea: 0+(0)+(1.66)+(0)
-Nota de MatheusZortea: 1.66
+Nota de MatheusZortea: 0+(0)+(3.33)+(0)
+Nota de MatheusZortea: 3.33

@@ -1,86 +1,86 @@
-==16702== Memcheck, a memory error detector
-==16702== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==16702== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==16702== Command: Resultados/MatheusZortea/completo/prog Resultados/MatheusZortea/completo/Casos/3
-==16702== Parent PID: 16701
-==16702== 
-==16702== Syscall param write(buf) points to uninitialised byte(s)
-==16702==    at 0x4990887: write (write.c:26)
-==16702==    by 0x4906EEC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1180)
-==16702==    by 0x49089E0: new_do_write (fileops.c:448)
-==16702==    by 0x49089E0: _IO_new_do_write (fileops.c:425)
-==16702==    by 0x49089E0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
-==16702==    by 0x4907FD7: _IO_file_close_it@@GLIBC_2.2.5 (fileops.c:135)
-==16702==    by 0x48FAD8E: fclose@@GLIBC_2.2.5 (iofclose.c:53)
-==16702==    by 0x1095A0: SalvaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702==    by 0x109863: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702==  Address 0x4aaa8ae is 14 bytes inside a block of size 4,096 alloc'd
-==16702==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==16702==    by 0x48FABA3: _IO_file_doallocate (filedoalloc.c:101)
-==16702==    by 0x4909CDF: _IO_doallocbuf (genops.c:347)
-==16702==    by 0x4908F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
-==16702==    by 0x49076D4: _IO_new_file_xsputn (fileops.c:1243)
-==16702==    by 0x49076D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
-==16702==    by 0x48FBFD6: fwrite (iofwrite.c:39)
-==16702==    by 0x10957E: SalvaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702==    by 0x109863: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702== 
-==16702== Conditional jump or move depends on uninitialised value(s)
-==16702==    at 0x485289C: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==16702==    by 0x4907422: _IO_file_xsgetn (fileops.c:1295)
-==16702==    by 0x48FBBA8: fread (iofread.c:38)
-==16702==    by 0x109634: CarregaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702==    by 0x109887: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702== 
-==16702== Conditional jump or move depends on uninitialised value(s)
-==16702==    at 0x48528D6: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==16702==    by 0x4907422: _IO_file_xsgetn (fileops.c:1295)
-==16702==    by 0x48FBBA8: fread (iofread.c:38)
-==16702==    by 0x109634: CarregaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702==    by 0x109887: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702== 
-==16702== Use of uninitialised value of size 8
-==16702==    at 0x485293B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==16702==    by 0x4907422: _IO_file_xsgetn (fileops.c:1295)
-==16702==    by 0x48FBBA8: fread (iofread.c:38)
-==16702==    by 0x109634: CarregaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702==    by 0x109887: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702== 
-==16702== Invalid write of size 8
-==16702==    at 0x485293B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==16702==    by 0x4907422: _IO_file_xsgetn (fileops.c:1295)
-==16702==    by 0x48FBBA8: fread (iofread.c:38)
-==16702==    by 0x109634: CarregaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702==    by 0x109887: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
-==16702== 
-==16702== 
-==16702== Process terminating with default action of signal 11 (SIGSEGV)
-==16702==  Access not within mapped region at address 0x0
-==16702==    at 0x485293B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==16702==    by 0x4907422: _IO_file_xsgetn (fileops.c:1295)
-==16702==    by 0x48FBBA8: fread (iofread.c:38)
-==16702==    by 0x109634: CarregaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702==    by 0x109887: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
-==16702==  If you believe this happened as a result of a stack
-==16702==  overflow in your program's main thread (unlikely but
-==16702==  possible), you can try to increase the size of the
-==16702==  main thread stack using the --main-stacksize= flag.
-==16702==  The main thread stack size used in this run was 8388608.
-==16702== 
-==16702== HEAP SUMMARY:
-==16702==     in use at exit: 12,800 bytes in 5 blocks
-==16702==   total heap usage: 13 allocs, 8 frees, 18,408 bytes allocated
-==16702== 
-==16702== LEAK SUMMARY:
-==16702==    definitely lost: 0 bytes in 0 blocks
-==16702==    indirectly lost: 0 bytes in 0 blocks
-==16702==      possibly lost: 0 bytes in 0 blocks
-==16702==    still reachable: 12,800 bytes in 5 blocks
-==16702==         suppressed: 0 bytes in 0 blocks
-==16702== Reachable blocks (those to which a pointer was found) are not shown.
-==16702== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==16702== 
-==16702== Use --track-origins=yes to see where uninitialised values come from
-==16702== For lists of detected and suppressed errors, rerun with: -s
-==16702== ERROR SUMMARY: 5 errors from 5 contexts (suppressed: 0 from 0)
+==82143== Memcheck, a memory error detector
+==82143== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==82143== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==82143== Command: Resultados/MatheusZortea/completo/prog Resultados/MatheusZortea/completo/Casos/3
+==82143== Parent PID: 82142
+==82143== 
+==82143== Syscall param write(buf) points to uninitialised byte(s)
+==82143==    at 0x498E887: write (write.c:26)
+==82143==    by 0x4904EEC: _IO_file_write@@GLIBC_2.2.5 (fileops.c:1180)
+==82143==    by 0x49069E0: new_do_write (fileops.c:448)
+==82143==    by 0x49069E0: _IO_new_do_write (fileops.c:425)
+==82143==    by 0x49069E0: _IO_do_write@@GLIBC_2.2.5 (fileops.c:422)
+==82143==    by 0x4905FD7: _IO_file_close_it@@GLIBC_2.2.5 (fileops.c:135)
+==82143==    by 0x48F8D8E: fclose@@GLIBC_2.2.5 (iofclose.c:53)
+==82143==    by 0x10965D: SalvaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143==    by 0x10990F: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143==  Address 0x4aa8cbe is 14 bytes inside a block of size 4,096 alloc'd
+==82143==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82143==    by 0x48F8BA3: _IO_file_doallocate (filedoalloc.c:101)
+==82143==    by 0x4907CDF: _IO_doallocbuf (genops.c:347)
+==82143==    by 0x4906F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+==82143==    by 0x49056D4: _IO_new_file_xsputn (fileops.c:1243)
+==82143==    by 0x49056D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+==82143==    by 0x48F9FD6: fwrite (iofwrite.c:39)
+==82143==    by 0x1095A1: SalvaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143==    by 0x10990F: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143== 
+==82143== Conditional jump or move depends on uninitialised value(s)
+==82143==    at 0x485289C: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82143==    by 0x4905422: _IO_file_xsgetn (fileops.c:1295)
+==82143==    by 0x48F9BA8: fread (iofread.c:38)
+==82143==    by 0x1096E0: CarregaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143==    by 0x109944: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143== 
+==82143== Conditional jump or move depends on uninitialised value(s)
+==82143==    at 0x48528D6: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82143==    by 0x4905422: _IO_file_xsgetn (fileops.c:1295)
+==82143==    by 0x48F9BA8: fread (iofread.c:38)
+==82143==    by 0x1096E0: CarregaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143==    by 0x109944: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143== 
+==82143== Use of uninitialised value of size 8
+==82143==    at 0x485293B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82143==    by 0x4905422: _IO_file_xsgetn (fileops.c:1295)
+==82143==    by 0x48F9BA8: fread (iofread.c:38)
+==82143==    by 0x1096E0: CarregaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143==    by 0x109944: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143== 
+==82143== Invalid write of size 8
+==82143==    at 0x485293B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82143==    by 0x4905422: _IO_file_xsgetn (fileops.c:1295)
+==82143==    by 0x48F9BA8: fread (iofread.c:38)
+==82143==    by 0x1096E0: CarregaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143==    by 0x109944: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==82143== 
+==82143== 
+==82143== Process terminating with default action of signal 11 (SIGSEGV)
+==82143==  Access not within mapped region at address 0x0
+==82143==    at 0x485293B: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82143==    by 0x4905422: _IO_file_xsgetn (fileops.c:1295)
+==82143==    by 0x48F9BA8: fread (iofread.c:38)
+==82143==    by 0x1096E0: CarregaAlunosBinario (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143==    by 0x109944: main (in /home/mgzortea/Documents/PROG-II/09_arquivo_binario/Arq_Bin_01/Resultados/MatheusZortea/completo/prog)
+==82143==  If you believe this happened as a result of a stack
+==82143==  overflow in your program's main thread (unlikely but
+==82143==  possible), you can try to increase the size of the
+==82143==  main thread stack using the --main-stacksize= flag.
+==82143==  The main thread stack size used in this run was 8388608.
+==82143== 
+==82143== HEAP SUMMARY:
+==82143==     in use at exit: 12,800 bytes in 5 blocks
+==82143==   total heap usage: 13 allocs, 8 frees, 19,448 bytes allocated
+==82143== 
+==82143== LEAK SUMMARY:
+==82143==    definitely lost: 0 bytes in 0 blocks
+==82143==    indirectly lost: 0 bytes in 0 blocks
+==82143==      possibly lost: 0 bytes in 0 blocks
+==82143==    still reachable: 12,800 bytes in 5 blocks
+==82143==         suppressed: 0 bytes in 0 blocks
+==82143== Reachable blocks (those to which a pointer was found) are not shown.
+==82143== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==82143== 
+==82143== Use --track-origins=yes to see where uninitialised values come from
+==82143== For lists of detected and suppressed errors, rerun with: -s
+==82143== ERROR SUMMARY: 5 errors from 5 contexts (suppressed: 0 from 0)
