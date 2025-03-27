@@ -57,6 +57,7 @@ Livro *lerLivro(){
     scanf("%d\n", &ano);
 
     Livro *l = criarLivro(nome, autor, editora, ano);
+    return l;
 }
 
 /*

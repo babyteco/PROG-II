@@ -1,1 +1,11 @@
-valgrind: Resultados/MatheusZortea/main/prog: No such file or directory
+LEU L
+LEU A
+LEU L
+MEU PAUUUUUUUUUUUUUUUUU
+LEU A OPCAO DE E, E O STING CMP DEU -1
+LEU A
+LEU L
+LEU A
+LEU L
+MEU PAUUUUUUUUUUUUUUUUU
+LEU A OPCAO DE E, E O STING CMP DEU 1

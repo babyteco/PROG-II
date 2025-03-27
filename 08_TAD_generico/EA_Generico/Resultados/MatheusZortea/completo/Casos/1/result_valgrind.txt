@@ -1,0 +1,52 @@
+==267452== Memcheck, a memory error detector
+==267452== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==267452== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==267452== Command: Resultados/MatheusZortea/completo/prog Resultados/MatheusZortea/completo/Casos/1
+==267452== Parent PID: 267451
+==267452== 
+==267452== Conditional jump or move depends on uninitialised value(s)
+==267452==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==267452==    by 0x10962C: criarLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x109718: lerLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x1099D7: main (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452== 
+==267452== Conditional jump or move depends on uninitialised value(s)
+==267452==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==267452==    by 0x10962C: criarLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x109718: lerLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x1099D7: main (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452== 
+==267452== Conditional jump or move depends on uninitialised value(s)
+==267452==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==267452==    by 0x109646: criarLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x109718: lerLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x1099D7: main (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452== 
+==267452== Conditional jump or move depends on uninitialised value(s)
+==267452==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==267452==    by 0x109659: criarLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x109718: lerLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x1099D7: main (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452== 
+==267452== Conditional jump or move depends on uninitialised value(s)
+==267452==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==267452==    by 0x109659: criarLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x109718: lerLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x1099D7: main (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452== 
+==267452== Conditional jump or move depends on uninitialised value(s)
+==267452==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==267452==    by 0x109646: criarLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x109718: lerLivro (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452==    by 0x1099D7: main (in /home/matheus/Imagens/PROG-II/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/completo/prog)
+==267452== 
+==267452== 
+==267452== HEAP SUMMARY:
+==267452==     in use at exit: 0 bytes in 0 blocks
+==267452==   total heap usage: 15 allocs, 15 frees, 10,420 bytes allocated
+==267452== 
+==267452== All heap blocks were freed -- no leaks are possible
+==267452== 
+==267452== Use --track-origins=yes to see where uninitialised values come from
+==267452== For lists of detected and suppressed errors, rerun with: -s
+==267452== ERROR SUMMARY: 102 errors from 6 contexts (suppressed: 0 from 0)

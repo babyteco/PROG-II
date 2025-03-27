@@ -1,21 +1,21 @@
-Arquivos Esperados Corretos: 4 de 5
+Arquivos Esperados Corretos: 5 de 5
 Pastas Compiladas Corretamente: 4 de 4 
-Pastas Linkadas Corretamente: 2 de 4
+Pastas Linkadas Corretamente: 4 de 4
 Teste main
   - Resultados corretos: 0 de 8
-  - Valgrinds corretos: 0 de 8
+  - Valgrinds corretos: 1 de 8
 Nota de MatheusZortea para o teste main: 0
 Teste completo
   - Resultados corretos: 0 de 8
-  - Valgrinds corretos: 0 de 8
+  - Valgrinds corretos: 1 de 8
 Nota de MatheusZortea para o teste completo: 0
 Teste livro
   - Resultados corretos: 8 de 8
   - Valgrinds corretos: 8 de 8
 Nota de MatheusZortea para o teste livro: 3.00
 Teste secao
-  - Resultados corretos: 3 de 8
-  - Valgrinds corretos: 2 de 8
-Nota de MatheusZortea para o teste secao: 1.12
-Nota de MatheusZortea: 0+(3.00)+(1.12)+(0)+(0)
-Nota de MatheusZortea: 4.12
+  - Resultados corretos: 8 de 8
+  - Valgrinds corretos: 8 de 8
+Nota de MatheusZortea para o teste secao: 3.50
+Nota de MatheusZortea: 0+(3.00)+(3.50)+(0)+(0)
+Nota de MatheusZortea: 6.50

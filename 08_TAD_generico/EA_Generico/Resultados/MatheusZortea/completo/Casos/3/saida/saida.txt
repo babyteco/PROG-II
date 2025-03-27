@@ -1,1 +1,5 @@
-valgrind: Resultados/MatheusZortea/completo/prog: No such file or directory
+LEU A
+LEU A
+LEU A
+LEU A
+LEU A

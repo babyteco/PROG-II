@@ -1,29 +1,18 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "livro.h"
-#include "artigo.h"
+#include "secao.h"
 
-/*
-    Definição de tipos e protótipos de funções de callback necessárias para manipulação dos itens da seção.
-*/
-typedef void (*func_ptr_desaloca_item)(void *dado);
-
-typedef void (*func_ptr_imprime_item)(void *dado);
-
-typedef int (*func_ptr_comparar_item)(void *dado, void *chave);
 
 /*
     Definição da estrutura de uma seção.
 */
 typedef struct Secao{
-    Livro **listaLivro;
-    int qtdLivros;
-    int capacidadeLivros;
-    
-    Artigo **listaArtigo;
-    int qtdArtigos;
-    int capacidadeArtigos;
+    void **lista;
+    int qtdItens;
+    int capacidadeItens;
+
+    func_ptr_desaloca_item desalocaItem;
 } Secao;
 
 /**
@@ -34,14 +23,12 @@ typedef struct Secao{
  */
 Secao *criarSecao(func_ptr_desaloca_item desaloca){
     Secao *s = (Secao*) malloc(sizeof(Secao));
-    s->capacidadeLivros = 2;
-    s->qtdLivros = 0;
-    s->listaLivro = (Livro**) malloc(s->capacidadeLivros * sizeof(Livro*));
+    s->capacidadeItens = 2;
+    s->qtdItens = 0;
+    s->lista = malloc(s->capacidadeItens * sizeof(void*));
     
-    s->capacidadeArtigos = 2;
-    s->qtdArtigos = 0;
-    s->listaArtigo = (Artigo**) malloc(s->capacidadeArtigos * sizeof(Artigo*));
-    
+    s->desalocaItem = desaloca; 
+
     return s;
 }
 
@@ -53,25 +40,14 @@ Secao *criarSecao(func_ptr_desaloca_item desaloca){
  * @param item Ponteiro para o item a ser adicionado.
  */
 void addItemSecao(Secao *sec, void *item){
-    Livro *l = (Livro*)item;
 
-    Livro *l = item;
-
-    
-    if (compararAnoLivro(item, )){
-        /* code */
-    }
-    
-    
-
-
-    if (sec->capacidadeLivros == sec->qtdLivros){
-        sec->capacidadeLivros = sec->capacidadeLivros + 2;
-        sec->listaLivro = realloc(sec->listaLivro, sec->capacidadeLivros * sizeof(Livro*));
+    if (sec->capacidadeItens == sec->qtdItens){
+        sec->capacidadeItens = sec->capacidadeItens + 2;
+        sec->lista = (void**)realloc(sec->lista, sec->capacidadeItens * sizeof(void*));
     }
 
-    sec->listaLivro[sec->qtdLivros] = l;
-    sec->qtdLivros++;
+    sec->lista[sec->qtdItens] = item;
+    sec->qtdItens++;
     
 }
 
@@ -83,9 +59,10 @@ void addItemSecao(Secao *sec, void *item){
  */
 void imprimirItensSecao(Secao *sec, func_ptr_imprime_item imprime){
 
-    for (int i = 0; i < sec->qtdLivros; i++){
-        imprimirLivro(sec->listaLivro[i]);
+    for (int i = 0; i < sec->qtdItens; i++){
+        imprime(sec->lista[i]);
     }
+    
 }
 
 /**
@@ -100,9 +77,9 @@ void imprimirItensSecao(Secao *sec, func_ptr_imprime_item imprime){
  */
 void imprimirItensPorChaveSecao(Secao *sec, void *chave, func_ptr_comparar_item compara, func_ptr_imprime_item imprime){
 
-    for (int i = 0; i < sec->qtdLivros; i++){
-        if (compara(sec->listaLivro[i], chave) == 1){
-            imprimirLivro(sec->listaLivro[i]);
+    for (int i = 0; i < sec->qtdItens; i++){
+        if (compara(sec->lista[i], chave) == 1){
+            imprime(sec->lista[i]);
         }
     }
 }
@@ -113,11 +90,26 @@ void imprimirItensPorChaveSecao(Secao *sec, void *chave, func_ptr_comparar_item 
  * @param sec Ponteiro para a seção a ser desalocada.
  */
 void desalocarSecao(Secao *sec){
-    for (int i = 0; i < sec->qtdLivros; i++){
-        desalocarLivro(sec->listaLivro[i]);
+    for (int i = 0; i < sec->qtdItens; i++){
+        sec->desalocaItem(sec->lista[i]);
     }
-    free(sec->listaLivro);
+    free(sec->lista);
     free(sec);
     sec = NULL;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

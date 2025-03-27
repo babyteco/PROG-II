@@ -33,6 +33,7 @@ Artigo *criarArtigo(char *autor, char *jornal, char *nome, int paginas, int ano)
     strcpy(a->nome, nome);
     a->ano = ano;
     a->paginas = paginas;
+    return a;
 }
 
 /**
