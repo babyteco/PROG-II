@@ -1,0 +1,226 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: MatheusZortea
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA MatheusZortea:
+ - Diretório Resultados/MatheusZortea criado com sucesso!
+ - Diretório Resultados/MatheusZortea/main criado com sucesso!
+ - Diretório Resultados/MatheusZortea/completo criado com sucesso!
+ - Diretório Resultados/MatheusZortea/gerenciadorpacotes criado com sucesso!
+ - Diretório Resultados/MatheusZortea/pacote criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/MatheusZortea/gerenciadorpacotes.c' encontrado!
+ - Arquivo esperado 'Respostas/MatheusZortea/gerenciadorpacotes.h' encontrado!
+ - Arquivo esperado 'Respostas/MatheusZortea/main.c' encontrado!
+ - Arquivo esperado 'Respostas/MatheusZortea/pacote.c' encontrado!
+ - Arquivo esperado 'Respostas/MatheusZortea/pacote.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/MatheusZortea/main
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/MatheusZortea/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/MatheusZortea/main
+ - Removendo o main.o do professor da pasta Resultados/MatheusZortea/main
+ - Copiando o Respostas/MatheusZortea/main.c do aluno para a pasta Resultados/MatheusZortea/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/MatheusZortea/completo
+ - Copiando os Respostas/MatheusZortea/gerenciadorpacotes.c do aluno para a pasta Resultados/MatheusZortea/completo
+ - Copiando os Respostas/MatheusZortea/gerenciadorpacotes.h do aluno para a pasta Resultados/MatheusZortea/completo
+ - Copiando os Respostas/MatheusZortea/main.c do aluno para a pasta Resultados/MatheusZortea/completo
+ - Copiando os Respostas/MatheusZortea/pacote.c do aluno para a pasta Resultados/MatheusZortea/completo
+ - Copiando os Respostas/MatheusZortea/pacote.h do aluno para a pasta Resultados/MatheusZortea/completo
+ - Pasta gerenciadorpacotes:
+ - Copiando os Casos de teste para a pasta Resultados/MatheusZortea/gerenciadorpacotes
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/MatheusZortea/gerenciadorpacotes
+ - Copiando os Includes/*.o do professor para a pasta Resultados/MatheusZortea/gerenciadorpacotes
+ - Removendo o gerenciadorpacotes.o do professor da pasta Resultados/MatheusZortea/gerenciadorpacotes
+ - Copiando o Respostas/MatheusZortea/gerenciadorpacotes.c do aluno para a pasta Resultados/MatheusZortea/gerenciadorpacotes
+ - Pasta pacote:
+ - Copiando os Casos de teste para a pasta Resultados/MatheusZortea/pacote
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/MatheusZortea/pacote
+ - Copiando os Includes/*.o do professor para a pasta Resultados/MatheusZortea/pacote
+ - Removendo o pacote.o do professor da pasta Resultados/MatheusZortea/pacote
+ - Copiando o Respostas/MatheusZortea/pacote.c do aluno para a pasta Resultados/MatheusZortea/pacote
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/MatheusZortea/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/MatheusZortea/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta gerenciadorpacotes ok!
+ - Arquivo de output gerado: Resultados/MatheusZortea/gerenciadorpacotes/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta pacote ok!
+ - Arquivo de output gerado: Resultados/MatheusZortea/pacote/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/MatheusZortea/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/MatheusZortea/completo/result_linking.txt
+ - Pasta gerenciadorpacotes:
+ - Gerando o binário prog linkando com o(s) arquivo(s) gerenciadorpacotes/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/MatheusZortea/gerenciadorpacotes/result_linking.txt
+ - Pasta pacote:
+ - Gerando o binário prog linkando com o(s) arquivo(s) pacote/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/MatheusZortea/pacote/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/MatheusZortea/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/MatheusZortea/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/MatheusZortea/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/MatheusZortea/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/MatheusZortea/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/MatheusZortea/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 28, frees: 28, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/MatheusZortea/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 53, frees: 53, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/MatheusZortea/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/MatheusZortea/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/MatheusZortea/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 81, frees: 81, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta gerenciadorpacotes / Caso 1:
+ - Arquivo de output gerado: Resultados/MatheusZortea/gerenciadorpacotes/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 28, frees: 28, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 2:
+ - Arquivo de output gerado: Resultados/MatheusZortea/gerenciadorpacotes/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 53, frees: 53, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 3:
+ - Arquivo de output gerado: Resultados/MatheusZortea/gerenciadorpacotes/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 4:
+ - Arquivo de output gerado: Resultados/MatheusZortea/gerenciadorpacotes/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 5:
+ - Arquivo de output gerado: Resultados/MatheusZortea/gerenciadorpacotes/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 81, frees: 81, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta gerenciadorpacotes (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta pacote / Caso 1:
+ - Arquivo de output gerado: Resultados/MatheusZortea/pacote/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta pacote / Caso 2:
+ - Arquivo de output gerado: Resultados/MatheusZortea/pacote/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta pacote / Caso 3:
+ - Arquivo de output gerado: Resultados/MatheusZortea/pacote/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta pacote / Caso 4:
+ - Arquivo de output gerado: Resultados/MatheusZortea/pacote/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta pacote / Caso 5:
+ - Arquivo de output gerado: Resultados/MatheusZortea/pacote/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta pacote (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: MatheusZortea
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 4 de 4
+ - Teste main
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de MatheusZortea para o teste main: 2.50
+ - Teste completo
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de MatheusZortea para o teste completo: 2.50
+ - Teste gerenciadorpacotes
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de MatheusZortea para o teste gerenciadorpacotes: 2.50
+ - Teste pacote
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de MatheusZortea para o teste pacote: 2.50
+ - Nota de MatheusZortea: 0+(2.50)+(2.50)+(2.50)+(2.50)
+ - Nota de MatheusZortea: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

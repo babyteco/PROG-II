@@ -1,0 +1,275 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: MatheusZortea
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA MatheusZortea:
+ - Diretório Resultados/MatheusZortea criado com sucesso!
+ - Diretório Resultados/MatheusZortea/main criado com sucesso!
+ - Diretório Resultados/MatheusZortea/completo criado com sucesso!
+ - Diretório Resultados/MatheusZortea/livro criado com sucesso!
+ - Diretório Resultados/MatheusZortea/secao criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/MatheusZortea/livro.c' encontrado!
+ - Arquivo esperado 'Respostas/MatheusZortea/livro.h' encontrado!
+ - Arquivo esperado 'Respostas/MatheusZortea/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/MatheusZortea/secao.c' encontrado!
+ - Arquivo esperado 'Respostas/MatheusZortea/secao.h' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/MatheusZortea/main
+ - Copiando os Includes/livro.h Includes/secao.h do professor para a pasta Resultados/MatheusZortea/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/MatheusZortea/main
+ - Removendo o main.o do professor da pasta Resultados/MatheusZortea/main
+ - Copiando o Respostas/MatheusZortea/main.c do aluno para a pasta Resultados/MatheusZortea/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/MatheusZortea/completo
+ - Copiando os Respostas/MatheusZortea/livro.c do aluno para a pasta Resultados/MatheusZortea/completo
+ - Copiando os Respostas/MatheusZortea/livro.h do aluno para a pasta Resultados/MatheusZortea/completo
+ - Copiando os Respostas/MatheusZortea/main.c do aluno para a pasta Resultados/MatheusZortea/completo
+ - Copiando os Respostas/MatheusZortea/secao.c do aluno para a pasta Resultados/MatheusZortea/completo
+ - Copiando os Respostas/MatheusZortea/secao.h do aluno para a pasta Resultados/MatheusZortea/completo
+ - Pasta livro:
+ - Copiando os Casos de teste para a pasta Resultados/MatheusZortea/livro
+ - Copiando os Includes/livro.h Includes/secao.h do professor para a pasta Resultados/MatheusZortea/livro
+ - Copiando os Includes/*.o do professor para a pasta Resultados/MatheusZortea/livro
+ - Removendo o livro.o do professor da pasta Resultados/MatheusZortea/livro
+ - Copiando o Respostas/MatheusZortea/livro.c do aluno para a pasta Resultados/MatheusZortea/livro
+ - Pasta secao:
+ - Copiando os Casos de teste para a pasta Resultados/MatheusZortea/secao
+ - Copiando os Includes/livro.h Includes/secao.h do professor para a pasta Resultados/MatheusZortea/secao
+ - Copiando os Includes/*.o do professor para a pasta Resultados/MatheusZortea/secao
+ - Removendo o secao.o do professor da pasta Resultados/MatheusZortea/secao
+ - Copiando o Respostas/MatheusZortea/secao.c do aluno para a pasta Resultados/MatheusZortea/secao
+ - Copiando Arquivos Extras do Aluno:
+ - Copiando Respostas/MatheusZortea/artigo.c para Resultados/MatheusZortea/main
+ - Copiando Respostas/MatheusZortea/artigo.c para Resultados/MatheusZortea/completo
+ - Copiando Respostas/MatheusZortea/artigo.h para Resultados/MatheusZortea/main
+ - Copiando Respostas/MatheusZortea/artigo.h para Resultados/MatheusZortea/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/MatheusZortea/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/MatheusZortea/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta livro ok!
+ - Arquivo de output gerado: Resultados/MatheusZortea/livro/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta secao ok!
+ - Arquivo de output gerado: Resultados/MatheusZortea/secao/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/MatheusZortea/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/MatheusZortea/completo/result_linking.txt
+ - Pasta livro:
+ - Gerando o binário prog linkando com o(s) arquivo(s) livro/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/MatheusZortea/livro/result_linking.txt
+ - Pasta secao:
+ - Gerando o binário prog linkando com o(s) arquivo(s) secao/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/MatheusZortea/secao/result_linking.txt
+ - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 8:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 3.50) - 0 de 80 - 0% de 3.50: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 8:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 0.0) - 0 de 80 - 0% de 0.0: 0.
+ -----
+ - Pasta livro / Caso 1:
+ - Arquivo de output gerado: Resultados/MatheusZortea/livro/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 22, frees: 22, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta livro / Caso 2:
+ - Arquivo de output gerado: Resultados/MatheusZortea/livro/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 18, frees: 18, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta livro / Caso 3:
+ - Arquivo de output gerado: Resultados/MatheusZortea/livro/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 36, frees: 36, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta livro / Caso 4:
+ - Arquivo de output gerado: Resultados/MatheusZortea/livro/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 36, frees: 36, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta livro / Caso 5:
+ - Arquivo de output gerado: Resultados/MatheusZortea/livro/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 38, frees: 38, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta livro / Caso 6:
+ - Arquivo de output gerado: Resultados/MatheusZortea/livro/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 38, frees: 38, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta livro / Caso 7:
+ - Arquivo de output gerado: Resultados/MatheusZortea/livro/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta livro / Caso 8:
+ - Arquivo de output gerado: Resultados/MatheusZortea/livro/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 38, frees: 38, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta livro (máximo 3.00) - 80.00 de 80 - 100.00% de 3.00: 3.00.
+ -----
+ - Pasta secao / Caso 1:
+ - Arquivo de output gerado: Resultados/MatheusZortea/secao/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 46, frees: 46, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta secao / Caso 2:
+ - Arquivo de output gerado: Resultados/MatheusZortea/secao/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 16, frees: 3, errors: 1 | Desconto do valgrind 40.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta secao / Caso 3:
+ - Arquivo de output gerado: Resultados/MatheusZortea/secao/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 56, frees: 7, errors: 1 | Desconto do valgrind 40.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta secao / Caso 4:
+ - Arquivo de output gerado: Resultados/MatheusZortea/secao/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 56, frees: 7, errors: 1 | Desconto do valgrind 40.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta secao / Caso 5:
+ - Arquivo de output gerado: Resultados/MatheusZortea/secao/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 63, frees: 81, errors: 18 | Desconto do valgrind 40.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 40.0% (desconto do valgrind) = 6.00 de 10 pontos.
+ - Pasta secao / Caso 6:
+ - Arquivo de output gerado: Resultados/MatheusZortea/secao/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 63, frees: 7, errors: 1 | Desconto do valgrind 40.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta secao / Caso 7:
+ - Arquivo de output gerado: Resultados/MatheusZortea/secao/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta secao / Caso 8:
+ - Arquivo de output gerado: Resultados/MatheusZortea/secao/Casos/8/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 63, frees: 7, errors: 1 | Desconto do valgrind 40.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 40.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta secao (máximo 3.50) - 26.00 de 80 - 32.00% de 3.50: 1.12.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: MatheusZortea
+ - Arquivos Esperados Corretos: 4 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 2 de 4
+ - Teste main
+ - Resultados corretos: 0 de 8
+ - Valgrinds corretos: 0 de 8
+ - Nota de MatheusZortea para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 8
+ - Valgrinds corretos: 0 de 8
+ - Nota de MatheusZortea para o teste completo: 0
+ - Teste livro
+ - Resultados corretos: 8 de 8
+ - Valgrinds corretos: 8 de 8
+ - Nota de MatheusZortea para o teste livro: 3.00
+ - Teste secao
+ - Resultados corretos: 3 de 8
+ - Valgrinds corretos: 2 de 8
+ - Nota de MatheusZortea para o teste secao: 1.12
+ - Nota de MatheusZortea: 0+(3.00)+(1.12)+(0)+(0)
+ - Nota de MatheusZortea: 4.12
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

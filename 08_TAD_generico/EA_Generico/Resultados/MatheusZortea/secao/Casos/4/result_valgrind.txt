@@ -1,0 +1,42 @@
+==138992== Memcheck, a memory error detector
+==138992== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==138992== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==138992== Command: Resultados/MatheusZortea/secao/prog Resultados/MatheusZortea/secao/Casos/4
+==138992== Parent PID: 138991
+==138992== 
+==138992== Invalid read of size 1
+==138992==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==138992==    by 0x48D4DA7: __printf_buffer (vfprintf-process-arg.c:435)
+==138992==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==138992==    by 0x48CA1B2: printf (printf.c:33)
+==138992==    by 0x10952F: imprimirLivro (in /home/matheus/Documentos/exercicios-gerais/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/secao/prog)
+==138992==    by 0x109D49: imprimirItensSecao (in /home/matheus/Documentos/exercicios-gerais/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/secao/prog)
+==138992==    by 0x1099D1: main (in /home/matheus/Documentos/exercicios-gerais/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/secao/prog)
+==138992==  Address 0x544341504d49204f is not stack'd, malloc'd or (recently) free'd
+==138992== 
+==138992== 
+==138992== Process terminating with default action of signal 11 (SIGSEGV)
+==138992==  General Protection Fault
+==138992==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==138992==    by 0x48D4DA7: __printf_buffer (vfprintf-process-arg.c:435)
+==138992==    by 0x48D573A: __vfprintf_internal (vfprintf-internal.c:1544)
+==138992==    by 0x48CA1B2: printf (printf.c:33)
+==138992==    by 0x10952F: imprimirLivro (in /home/matheus/Documentos/exercicios-gerais/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/secao/prog)
+==138992==    by 0x109D49: imprimirItensSecao (in /home/matheus/Documentos/exercicios-gerais/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/secao/prog)
+==138992==    by 0x1099D1: main (in /home/matheus/Documentos/exercicios-gerais/08_TAD_generico/EA_Generico/Resultados/MatheusZortea/secao/prog)
+==138992== 
+==138992== HEAP SUMMARY:
+==138992==     in use at exit: 13,422 bytes in 49 blocks
+==138992==   total heap usage: 56 allocs, 7 frees, 13,678 bytes allocated
+==138992== 
+==138992== LEAK SUMMARY:
+==138992==    definitely lost: 0 bytes in 0 blocks
+==138992==    indirectly lost: 0 bytes in 0 blocks
+==138992==      possibly lost: 0 bytes in 0 blocks
+==138992==    still reachable: 13,422 bytes in 49 blocks
+==138992==         suppressed: 0 bytes in 0 blocks
+==138992== Reachable blocks (those to which a pointer was found) are not shown.
+==138992== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==138992== 
+==138992== For lists of detected and suppressed errors, rerun with: -s
+==138992== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
